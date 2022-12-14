@@ -1,2 +1,16 @@
 server:
   port: 8080
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://gz-cynosdbmysql-grp-iezap38d.sql.tencentcdb.com:24105/sboot_jshjsyyglxt?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  config-location: classpath:mybatis/Mybatis-Config.xml
+
+
+

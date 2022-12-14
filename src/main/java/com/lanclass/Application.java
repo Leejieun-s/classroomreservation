@@ -1,14 +1,14 @@
 package com.lanclass;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import springfox.documentation.oas.annotations.EnableOpenApi;
 
-
+@MapperScan("com.lanclass.mapper")
 @SpringBootApplication
 public class Application implements CommandLineRunner {
     private final static Logger LOGGER = LoggerFactory.getLogger(Application.class);
