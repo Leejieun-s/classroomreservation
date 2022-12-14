@@ -112,4 +112,17 @@ public class User implements Serializable {
                 ", regdate='" + regdate + '\'' +
                 '}';
     }
+
+    public User(String usersid, String username, String password, String realname, String sex, String birthday, String contact, String image, String status, String regdate) {
+        this.usersid = usersid;
+        this.username = username;
+        this.password = password;
+        this.realname = realname;
+        this.sex = sex;
+        this.birthday = birthday;
+        this.contact = contact;
+        this.image = image;
+        this.status = status;
+        this.regdate = regdate;
+    }
 }
