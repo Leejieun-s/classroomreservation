@@ -22,11 +22,11 @@ spring:
   datasource:
       url: jdbc:mysql://gz-cynosdbmysql-grp-iezap38d.sql.tencentcdb.com:24105/sboot_jshjsyyglxt?useUnicode=true&characterEncoding=UTF-8&useSSL=false
       username: root
-      password: root
+      password: Lsh5258!
       driver-class-name: com.mysql.cj.jdbc.Driver
 
 mybatis:
   type-aliases-package: com.lanclass.entity
-  mapper-locations: classpath:mybatis/*.xml
+  mapper-locations: classpath:Mapper/*.xml
   configuration:
     map-underscore-to-camel-case: true
