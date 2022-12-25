@@ -1,19 +1,42 @@
 package com.lanclass.entity;
 
 import com.lanclass.util.VeDate;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 
 import java.io.Serializable;
 
+@ApiModel("用户信息实体")
 public class User implements Serializable {
+
+    @ApiModelProperty("用户id")
     private String usersid = "U" + VeDate.getStringId();// 生成主键编号
+
+    @ApiModelProperty("用户名")
     private String username;// 用户名
+
+    @ApiModelProperty("用户密码")
     private String password;// 密码
+
+    @ApiModelProperty("用户姓名")
     private String realname;// 姓名
+
+    @ApiModelProperty("用户性别")
     private String sex;// 性别
+
+    @ApiModelProperty("出生年龄")
     private String birthday;// 出生日期
+
+    @ApiModelProperty("用户邮箱")
     private String contact;// 联系方式
+
+    @ApiModelProperty("用户头像")
     private String image;// 头像
+
+    @ApiModelProperty("用户状态")
     private String status;// 状态
+
+    @ApiModelProperty("用户注册时间")
     private String regdate;// 注册日期
 
 
