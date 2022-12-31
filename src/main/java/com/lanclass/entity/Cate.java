@@ -2,6 +2,9 @@ package com.lanclass.entity;
 
 import com.lanclass.util.VeDate;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Cate {
     private String cateid = "C" + VeDate.getStringId();// 生成主键编号
     private String catename;// 类型名称
