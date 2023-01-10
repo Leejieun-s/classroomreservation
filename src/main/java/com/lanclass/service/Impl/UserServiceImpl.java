@@ -14,7 +14,8 @@ import java.util.List;
  * @Date: 2022/12/14/23:53
  */
 
-@Service
+
+@Service("userService")
 public class UserServiceImpl implements UserService {
 
     @Autowired
@@ -25,4 +26,16 @@ public class UserServiceImpl implements UserService {
 
         return userMapper.selectUser();
     }
+
+    @Override
+    public List<User> getUsersByCond(User user) {
+        return null;
+    }
+
+    @Override
+    public List<User> getUsersByCond() {
+        return null;
+    }
+
+
 }

@@ -23,14 +23,14 @@ public class Swagger3Config {
 
     @Bean
     public Docket docket() {
-        return new Docket(DocumentationType.OAS_30).apiInfo(apiInfo()).groupName("å¼€å‘ç‰ˆv1.0");
+        return new Docket(DocumentationType.OAS_30).apiInfo(apiInfo()).groupName("¿ª·¢°æv1.0");
     }
 
 
     private ApiInfo apiInfo(){
-        Contact contact=  new Contact("è“åŒå­¦","https://baidu.com", "1527715476@qq.com");
-        return new ApiInfo("å°æ’åŒå­¦çš„apiæ–‡æ¡£",
-                "ç”¨äºæ¯•ä¸šè®¾è®¡ä½œå“æ¥å£æ–‡æ¡£çš„ç®¡ç†",
+        Contact contact=  new Contact("À¶Í¬Ñ§","https://baidu.com", "1527715476@qq.com");
+        return new ApiInfo("Ğ¡ºãÍ¬Ñ§µÄapiÎÄµµ",
+                "ÓÃÓÚ±ÏÒµÉè¼Æ×÷Æ·½Ó¿ÚÎÄµµµÄ¹ÜÀí",
                 "V1.0",
                 "https://lans.cc",
                 contact,

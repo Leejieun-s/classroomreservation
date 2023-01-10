@@ -39,6 +39,10 @@ public class User implements Serializable {
     @ApiModelProperty("用户注册时间")
     private String regdate;// 注册日期
 
+    public User() {
+        super();
+    }
+
 
     public String getUsersid() {
         return usersid;

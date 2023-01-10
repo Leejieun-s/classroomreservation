@@ -17,6 +17,9 @@
         <java.version>17</java.version>
     </properties>
     <dependencies>
+
+
+<!--        web依赖，tomcat-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>

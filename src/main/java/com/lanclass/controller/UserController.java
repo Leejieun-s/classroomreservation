@@ -42,4 +42,10 @@ public class UserController {
     public String sercch(String name,Integer age){
         return name+age;
     }
+
+    public  String login(String name,String password){
+        User user=new User();
+        user.setUsername(name);
+        return "login";
+    }
 }
